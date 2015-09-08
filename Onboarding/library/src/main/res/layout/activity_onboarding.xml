@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/onboarding_primary_background">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/onboarding_progress_height"
+        android:background="@color/onboarding_progress_background"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:id="@+id/onboarding_progress_buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/onboard_btn_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/onboarding_padding_default"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/onboarding_btn_font_size"
+            android:text="@string/onboarding_btn_skip"/>
+
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="onboarding_primary_background">#f90</color>
+    <color name="onboarding_progress_background">#009</color>
+
+    <dimen name="onboarding_btn_font_size">18sp</dimen>
+
+    <dimen name="onboarding_padding_default">16dp</dimen>
+    <dimen name="onboarding_progress_height">65dp</dimen>
+
+    <string name="onboarding_btn_done">Done</string>
+    <string name="onboarding_btn_skip">Skip</string>
+
+</resources>
